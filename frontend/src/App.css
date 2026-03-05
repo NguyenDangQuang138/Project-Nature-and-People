@@ -1,65 +1,65 @@
 /* Smooth scrolling */
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /* Custom scrollbar */
 ::-webkit-scrollbar {
-    width: 10px;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #f5f5f4;
+  background: #f5f5f4;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #78716c;
-    border-radius: 5px;
+  background: #78716c;
+  border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #57534e;
+  background: #57534e;
 }
 
 /* Image loading optimization */
 img {
-    image-rendering: -webkit-optimize-contrast;
+  image-rendering: -webkit-optimize-contrast;
 }
 
 /* Focus styles for accessibility */
 *:focus-visible {
-    outline: 2px solid #059669;
-    outline-offset: 2px;
+  outline: 2px solid #059669;
+  outline-offset: 2px;
 }
 
 /* Selection color */
 ::selection {
-    background-color: #d1fae5;
-    color: #065f46;
+  background-color: #d1fae5;
+  color: #065f46;
 }
 
 /* Prose styles for blog content */
 .prose {
-    max-width: none;
+  max-width: none;
 }
 
 .prose h2 {
-    color: #1c1917;
-    font-weight: 700;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+  color: #1c1917;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 .prose p {
-    color: #44403c;
-    line-height: 1.75;
+  color: #44403c;
+  line-height: 1.75;
 }
 
 .prose ul {
-    list-style-type: none;
-    padding-left: 0;
+  list-style-type: none;
+  padding-left: 0;
 }
 
 .prose li {
-    margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
