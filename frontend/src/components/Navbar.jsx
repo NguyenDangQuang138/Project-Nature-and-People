@@ -1,17 +1,17 @@
-import React, { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import { Leaf, Menu, X } from 'lucide-react';
-import { Button } from './ui/button';
+import React, { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
+import { Leaf, Menu, X } from "lucide-react";
+import { Button } from "./ui/button";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
 
   const navLinks = [
-    { name: 'Trang Chủ', path: '/' },
-    { name: 'Blog', path: '/blog' },
-    { name: 'Giới Thiệu', path: '/about' },
-    { name: 'Hành Động', path: '/action' }
+    { name: "Trang Chủ", path: "/" },
+    { name: "Blog", path: "/blog" },
+    { name: "Giới Thiệu", path: "/about" },
+    { name: "Hành Động", path: "/action" },
   ];
 
   const isActive = (path) => location.pathname === path;
@@ -26,7 +26,7 @@ const Navbar = () => {
               <Leaf className="w-6 h-6 text-white" />
             </div>
             <span className="text-xl font-bold text-stone-800">
-              Khí Hậu <span className="text-emerald-600">Xanh</span>
+              Sống <span className="text-emerald-600">Xanh</span>
             </span>
           </Link>
 
@@ -38,8 +38,8 @@ const Navbar = () => {
                 to={link.path}
                 className={`px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 ${
                   isActive(link.path)
-                    ? 'bg-emerald-50 text-emerald-700'
-                    : 'text-stone-600 hover:bg-stone-100 hover:text-stone-900'
+                    ? "bg-emerald-50 text-emerald-700"
+                    : "text-stone-600 hover:bg-stone-100 hover:text-stone-900"
                 }`}
               >
                 {link.name}
@@ -49,7 +49,7 @@ const Navbar = () => {
 
           {/* CTA Button - Desktop */}
           <div className="hidden md:block">
-            <Button 
+            <Button
               asChild
               className="bg-emerald-600 hover:bg-emerald-700 text-white transition-colors duration-200"
             >
@@ -78,14 +78,14 @@ const Navbar = () => {
                 onClick={() => setIsOpen(false)}
                 className={`block px-4 py-2 rounded-md text-base font-medium transition-colors duration-200 ${
                   isActive(link.path)
-                    ? 'bg-emerald-50 text-emerald-700'
-                    : 'text-stone-600 hover:bg-stone-100 hover:text-stone-900'
+                    ? "bg-emerald-50 text-emerald-700"
+                    : "text-stone-600 hover:bg-stone-100 hover:text-stone-900"
                 }`}
               >
                 {link.name}
               </Link>
             ))}
-            <Button 
+            <Button
               asChild
               className="w-full mt-2 bg-emerald-600 hover:bg-emerald-700 text-white transition-colors duration-200"
             >

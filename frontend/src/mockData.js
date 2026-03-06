@@ -146,7 +146,7 @@ export const blogPosts = [
         "Sinh viên có thể mang theo túi vải khi mua sắm, sử dụng bình nước tái sử dụng thay vì chai nhựa, mua đồ second-hand, sửa chữa thay vì vứt bỏ, tham gia các chiến dịch zero waste tại trường, và chia sẻ kiến thức về lối sống xanh.",
       cta: "Hãy bắt đầu lối sống zero waste ngay hôm nay! Mỗi sản phẩm bạn chọn mua là một bình chọn cho tương lai bạn muốn. Từ chối nhựa dùng một lần và lan tỏa thông điệp tiêu dùng có trách nhiệm.",
     },
-    videoId: "R_4C-B40xx8",
+    videoId: "vuOpJPovNPI",
     tags: ["tiêu dùng bền vững", "zero waste", "tái chế", "sống xanh"],
   },
   {
@@ -243,7 +243,7 @@ export const blogPosts = [
         "Sinh viên có thể tham gia các chiến dịch trồng cây, sử dụng giấy tái chế và giảm tiêu thụ giấy, không mua sản phẩm từ gỗ bất hợp pháp, tham gia giáo dục cộng đồng về vai trò của rừng, và hỗ trợ các tổ chức bảo vệ động vật hoang dã.",
       cta: "Hãy trồng một cây hôm nay! Tham gia các chương trình trồng rừng, giảm sử dụng giấy, và lan tỏa thông điệp bảo vệ rừng. Mỗi cây xanh là một bước chống lại biến đổi khí hậu.",
     },
-    videoId: "ddMAK-uHjAM",
+    videoId: "q_Yv9XaGhaw",
     tags: ["bảo vệ rừng", "đa dạng sinh học", "trồng cây", "hệ sinh thái"],
   },
   {

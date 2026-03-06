@@ -1,6 +1,13 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { Leaf, Mail, Facebook, Twitter, Instagram, Youtube } from 'lucide-react';
+import React from "react";
+import { Link } from "react-router-dom";
+import {
+  Leaf,
+  Mail,
+  Facebook,
+  Twitter,
+  Instagram,
+  Youtube,
+} from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -15,12 +22,11 @@ const Footer = () => {
               <div className="bg-gradient-to-br from-emerald-600 to-teal-700 p-2 rounded-lg">
                 <Leaf className="w-6 h-6 text-white" />
               </div>
-              <span className="text-xl font-bold text-white">
-                Khí Hậu Xanh
-              </span>
+              <span className="text-xl font-bold text-white">Sống Xanh</span>
             </div>
             <p className="text-sm text-stone-400">
-              Cùng nhau hành động vì một hành tinh xanh, bền vững cho thế hệ tương lai.
+              Cùng nhau hành động vì một hành tinh xanh, bền vững cho thế hệ
+              tương lai.
             </p>
           </div>
 
@@ -29,22 +35,34 @@ const Footer = () => {
             <h3 className="text-white font-semibold mb-4">Liên Kết</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/" className="text-stone-400 hover:text-emerald-400 transition-colors duration-200">
+                <Link
+                  to="/"
+                  className="text-stone-400 hover:text-emerald-400 transition-colors duration-200"
+                >
                   Trang Chủ
                 </Link>
               </li>
               <li>
-                <Link to="/blog" className="text-stone-400 hover:text-emerald-400 transition-colors duration-200">
+                <Link
+                  to="/blog"
+                  className="text-stone-400 hover:text-emerald-400 transition-colors duration-200"
+                >
                   Blog
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="text-stone-400 hover:text-emerald-400 transition-colors duration-200">
+                <Link
+                  to="/about"
+                  className="text-stone-400 hover:text-emerald-400 transition-colors duration-200"
+                >
                   Giới Thiệu
                 </Link>
               </li>
               <li>
-                <Link to="/action" className="text-stone-400 hover:text-emerald-400 transition-colors duration-200">
+                <Link
+                  to="/action"
+                  className="text-stone-400 hover:text-emerald-400 transition-colors duration-200"
+                >
                   Hành Động
                 </Link>
               </li>
@@ -70,7 +88,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-2 text-stone-400">
                 <Mail className="w-4 h-4" />
-                <span className="text-sm">contact@khihauxanh.vn</span>
+                <span className="text-sm">contact@songxanh.vn</span>
               </div>
               <div className="flex space-x-3 mt-4">
                 <a
@@ -114,7 +132,8 @@ const Footer = () => {
         <div className="mt-8 pt-8 border-t border-stone-700">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm text-stone-400 text-center md:text-left">
-              © {currentYear} Khí Hậu Xanh. Giữ đại dương xanh, giữ khí hậu ổn định.
+              © {currentYear} Khí Hậu Xanh. Giữ đại dương xanh, giữ khí hậu ổn
+              định.
             </p>
             <p className="text-sm text-stone-400">
               Xây dựng cho học phần Tuần 12 - SDGs & Biến Đổi Khí Hậu
